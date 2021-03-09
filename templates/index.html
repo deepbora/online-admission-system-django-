@@ -1,0 +1,32 @@
+
+
+
+{% if user.is_authenticated %}
+{% extends 'student.html' %}
+
+{% block title %}
+login
+{% endblock title %}
+
+
+{% block body %}
+{% load static %}
+
+
+
+{% endblock body %}
+{% else %} 
+{% extends 'base.html' %}
+
+{% block title %}
+login
+{% endblock title %}
+
+
+{% block body %}
+{% load static %}
+
+
+
+{% endblock body %}
+{% endif %}  
