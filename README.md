@@ -19,4 +19,8 @@ the login adimin
 and type username and password...
 good luck...
 
+## license
+[MIT LICENSE](LICENSE)
+
+
 
